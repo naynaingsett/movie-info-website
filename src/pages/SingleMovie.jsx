@@ -48,19 +48,25 @@ const SingleMovie = () => {
 					/>
 				</div>
 				<div className='detail-info'>
-					<h1>{movie.title}</h1>
+					<div>
+						<h1>{movie.title}</h1>
+					</div>
 					{movie.title !==
 					movie.original_title ? (
-						<h6>{movie.original_title}</h6>
+						<div>
+							<h6>{movie.original_title}</h6>
+						</div>
 					) : (
 						''
 					)}
-					<p>
-						<span className='info-btn'>
-							Release Date:
-						</span>
-						{movie.release_date}
-					</p>
+					<div>
+						<p>
+							<span className='info-btn'>
+								Release Date:
+							</span>
+							{movie.release_date}
+						</p>
+					</div>
 					<div className='genre'>
 						{movie.genres &&
 							movie.genres.map((item, index) => {
@@ -75,42 +81,48 @@ const SingleMovie = () => {
 								);
 							})}
 					</div>
-					<a
-						href={movie.homepage}
-						target='_blank'
-						className='source'
-					>
-						Original Source
-					</a>
-					<p className='overview'>
-						{movie.overview && readMore
-							? `${movie.overview.substring(
-									0,
-									200
-							  )}`
-							: movie.overview}
-						{movie.overview &&
-						movie.overview.length > 200 ? (
-							<button
-								className='readMore'
-								onClick={() =>
-									setReadMore(!readMore)
-								}
-							>
-								{readMore
-									? '...read more'
-									: 'show less'}
-							</button>
-						) : (
-							''
-						)}
-					</p>
-					<p>
-						<span className='info-btn'>
-							Popularity:
-						</span>
-						{movie.popularity}
-					</p>
+					<div>
+						<a
+							href={movie.homepage}
+							target='_blank'
+							className='source'
+						>
+							Original Source
+						</a>
+					</div>
+					<div>
+						<p className='overview'>
+							{movie.overview && readMore
+								? `${movie.overview.substring(
+										0,
+										200
+								  )}`
+								: movie.overview}
+							{movie.overview &&
+							movie.overview.length > 200 ? (
+								<button
+									className='readMore'
+									onClick={() =>
+										setReadMore(!readMore)
+									}
+								>
+									{readMore
+										? '...read more'
+										: 'show less'}
+								</button>
+							) : (
+								''
+							)}
+						</p>
+					</div>
+					<div>
+						<p>
+							<span className='info-btn'>
+								Popularity:
+							</span>
+							{movie.popularity}
+						</p>
+					</div>
 				</div>
 			</section>
 		)
