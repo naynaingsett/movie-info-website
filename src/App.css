@@ -51,6 +51,11 @@ body{
   width: 100vw;
   height: 100vh;
 }
+@media (max-width: 480px){
+  .info-container{
+    flex-direction: column;
+  }
+}
 .info-overview{
   overflow: auto;
   max-width: 200px;
