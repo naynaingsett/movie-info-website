@@ -56,7 +56,7 @@ body{
     flex-direction: column;
   }
   .movie{
-    max-width: 190px
+    max-width: 180px
   }
 }
 .info-overview{
