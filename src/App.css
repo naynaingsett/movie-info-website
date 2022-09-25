@@ -55,6 +55,9 @@ body{
   .info-container{
     flex-direction: column;
   }
+  .movie{
+    max-width: 190px
+  }
 }
 .info-overview{
   overflow: auto;
