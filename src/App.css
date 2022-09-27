@@ -63,6 +63,11 @@ body{
   .nav-elements{
     font-size: 1.2rem;
   }
+  .about{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
 }
 .info-overview{
   overflow: auto;
