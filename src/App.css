@@ -41,7 +41,7 @@ body{
   height: auto;
 }
 .image-container{
-  width: 50vw;
+  max-width: 500px;
   height: auto
 }
 .info-container{
@@ -49,7 +49,7 @@ body{
   justify-content: center;
   align-items: center;
   width: 100%;
-  height: 100vh;
+  height: 100%;
 }
 @media (max-width: 480px){
   .info-container{
