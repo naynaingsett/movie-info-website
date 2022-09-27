@@ -28,7 +28,7 @@ body{
   width: 100vw;
 }
 .movie{
-  max-width: 250px;
+  max-width: 290px;
   height: auto;
   border: 1px solid #333;
   background-color: #fff;
@@ -41,7 +41,7 @@ body{
   height: auto;
 }
 .image-container{
-  max-width: 250px;
+  max-width: 350px;
   height: auto;
 }
 .info-container{
@@ -148,6 +148,7 @@ body{
   padding: 10px;
   color: #fff;
   gap: 5px;
+  font-size: 1.5rem;
 }
 .genre{
   display: flex;
