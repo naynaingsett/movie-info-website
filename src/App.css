@@ -41,8 +41,8 @@ body{
   height: auto;
 }
 .image-container{
-  max-width: 500px;
-  height: auto
+  max-width: 20%;
+  height: auto;
 }
 .info-container{
   display: flex;
