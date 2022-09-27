@@ -101,7 +101,9 @@ body{
   color: #fff;
 }
 .input{
-  width: 100vw
+  width: 100%;
+  height: 50px;
+  border-radius: 2px;
 }
 .movie-type{
   display: flex;
