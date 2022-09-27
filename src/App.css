@@ -60,6 +60,9 @@ body{
   .movie{
     max-width: 180px
   }
+  .nav-elements{
+    font-size: 2rem;
+  }
 }
 .info-overview{
   overflow: auto;
