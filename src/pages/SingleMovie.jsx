@@ -85,7 +85,7 @@ const SingleMovie = () => {
 						<a
 							href={movie.homepage}
 							target='_blank'
-							className='source'
+							className='info-btn'
 						>
 							Original Source
 						</a>

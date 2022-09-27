@@ -193,9 +193,5 @@ body{
   color: #333;
   border-radius: 3px;
   margin-right: 5px;
-}
-.source{
-  color: #333;
-  background-color: #fff;
-  border-radius: 3px;
+  padding: 0 5px;
 }
