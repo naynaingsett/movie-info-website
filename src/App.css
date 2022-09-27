@@ -80,6 +80,7 @@ body{
   border: none;
   color: #333;
   border-radius: 2px;
+  cursor: pointer;
 }
 .type-btn:focus{
   background-color: gray;
