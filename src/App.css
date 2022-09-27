@@ -197,6 +197,7 @@ body{
   margin: 10px;
   font-size: 1.5rem;
   transition: all 0.3s ease-in-out 0s;
+  font-size: 3rem;
 }
 .contact:hover{
   transform: scale(1.3);
